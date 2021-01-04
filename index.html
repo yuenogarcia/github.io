@@ -1,0 +1,45 @@
+<!--  ----------------------------------------------------------------------  -->
+<!--  次の <META> 要素を、HTML の <HEAD>タグ間に追加してください。必要に応じて、charset                  -->
+<!--  パラメータを変更して、HTML ページの文字コードを指定してください。                                     -->
+<!--  ----------------------------------------------------------------------  -->
+
+<META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
+
+    <!--  ----------------------------------------------------------------------  -->
+    <!--  次の <FORM> 要素をページに追加してください。                                              -->
+    <!--  ----------------------------------------------------------------------  -->
+    
+    <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
+    
+    <input type=hidden name="oid" value="00D2r000000GUpx">
+    <input type=hidden name="retURL" value="http://">
+    
+    <!--  ----------------------------------------------------------------------  -->
+    <!--  注意: これらの項目は、省略可能なデバッグ用要素です。デバッグモードでテストを行う場合は、これらの行をコメント解除してください。        -->
+    <!--  <input type="hidden" name="debug" value=1>                              -->
+    <!--  <input type="hidden" name="debugEmail"                                  -->
+    <!--  value="yueno@garciacompany.jp">                                         -->
+    <!--  ----------------------------------------------------------------------  -->
+    
+    <label for="first_name">名</label><input  id="first_name" maxlength="40" name="first_name" size="20" type="text" /><br>
+    
+    <label for="last_name">姓</label><input  id="last_name" maxlength="80" name="last_name" size="20" type="text" /><br>
+    
+    <label for="email">メール</label><input  id="email" maxlength="80" name="email" size="20" type="text" /><br>
+    
+    <label for="company">会社名</label><input  id="company" maxlength="40" name="company" size="20" type="text" /><br>
+    
+    <label for="country">国</label><input  id="country" maxlength="40" name="country" size="20" type="text" /><br>
+    
+    <label for="state">都道府県</label><input  id="state" maxlength="20" name="state" size="20" type="text" /><br>
+    
+    Product Interest:<select  id="00N2r000001fEm8" name="00N2r000001fEm8" title="Product Interest"><option value="">--なし--</option><option value="GC1000 series">GC1000 series</option>
+    <option value="GC5000 series">GC5000 series</option>
+    <option value="GC3000 series">GC3000 series</option>
+    </select><br>
+    
+    <input type="submit" name="submit">
+    <input type="hidden" name="debug" value="1">
+    
+    </form>
+    
